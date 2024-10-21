@@ -1,5 +1,5 @@
 {% set name = "readfcs" %}
-{% set version = "1.1.8" %}
+{% set version = "1.1.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/readfcs-{{ version }}.tar.gz
-  sha256: dc10e1d7b31cd6b008f0fcdb8bae7d979cd71ae948d2927e5f201afaa72d6e93
+  sha256: beb0a96d31d72a07f2b62ebeebc43f224c8f9c4d7e13e70bad2dfc3332da2037
 
 build:
   noarch: python
