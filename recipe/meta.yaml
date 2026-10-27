@@ -1,5 +1,5 @@
 {% set name = "readfcs" %}
-{% set version = "2.1.0" %}
+{% set version = "2.1.1" %}
 {% set python_min = "3.10 " %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/readfcs-{{ version }}.tar.gz
-  sha256: d2907cc653a65902d8ef4609a3b4c6ef2ac3bb5c6d685ab6aa24cd6160504f88
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/readfcs-{{ version }}.tar.gz
+  sha256: fe3d89be76fec9cd5a57865528614c333d2951ed90388ba37a98af6621f7f01e
 
 build:
   noarch: python
